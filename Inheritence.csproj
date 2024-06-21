@@ -50,6 +50,7 @@
     <Compile Include="Fish.cs" />
     <Compile Include="Mammal.cs" />
     <Compile Include="MethodHiding.cs" />
+    <Compile Include="Matrix.cs" />
     <Compile Include="Polymorphism.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />

@@ -29,17 +29,35 @@ namespace Inheritence
 
         public new void Test2()       // Method Hiding / Shadowing
         {
-            base.Test2();
             Console.WriteLine("Method Test 2 from Child Class.");
         }
 
-        static void Main()
+        public void ParentTest1()
         {
-            DerivedClass child = new DerivedClass();
-            child.Test1();
-            child.Test2();
-
-            Console.ReadLine();
+            base.Test1();
         }
+        public void ParentTest2()
+        {
+            base.Test2();
+        }
+
+        public void Display()
+        {
+            Console.WriteLine("Display Method is called.");
+        }
+        //static void Main()
+        //{
+        //    DerivedClass child = new DerivedClass();
+        //    //child.Test1();
+        //    //child.Test2();
+        //    //child.ParentTest1 ();
+        //    //child.ParentTest2 ();
+
+        //    MethodHiding methodHiding = child;
+        //    methodHiding.Test1();
+        //    methodHiding.Test2();
+
+        //    Console.ReadLine();
+        //}
     }
 }
