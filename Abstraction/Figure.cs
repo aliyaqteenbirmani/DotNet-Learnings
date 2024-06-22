@@ -58,9 +58,9 @@ namespace Inheritence
     {
         static void Main(string[] args)
         {
-            //Rectangle r = new Rectangle(12.67,56.78);
-            //Circle c = new Circle(45.67);
-            //Cone cn = new Cone(34.98, 12.98);
+            Rectangle r = new Rectangle(12.67, 56.78);
+            Circle c = new Circle(45.67);
+            Cone cn = new Cone(34.98, 12.98);
 
             Figure r1 = new Rectangle(12.67, 56.78);
             Figure c = new Circle(45.67);
