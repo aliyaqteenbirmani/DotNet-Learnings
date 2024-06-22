@@ -49,6 +49,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Class2.cs" />
     <Compile Include="Fish.cs" />
+    <Compile Include="Interfaces\ItestInterface.cs" />
     <Compile Include="Mammal.cs" />
     <Compile Include="MethodHiding.cs" />
     <Compile Include="Matrix.cs" />
@@ -61,5 +62,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

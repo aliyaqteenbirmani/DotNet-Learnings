@@ -119,14 +119,17 @@ namespace Inheritence
 
         //static void Main()
         //{
+        //    Vehicle c1 = new Car("Fortuner", "RangeRover", 2020, "Black", 4, true);
         //    VehicleManagementSystem vm = new VehicleManagementSystem();
         //    Car car = new Car("Toyota", "Camry", 2020, "Red", 4, true);
         //    Truck truck = new Truck("Ford", "F-150", 2019, "Blue", 3000, 4);
         //    Motorcycle motorcycle = new Motorcycle("Harley-Davidson", "Street 750", 2021, "Black", false, "V-Twin");
 
-        //    vm.AddVehicle(car);
-        //    vm.AddVehicle(truck);
-        //    vm.AddVehicle(motorcycle);
+        //    c1.DisplayInfo();
+        //    //vm.AddVehicle(car);
+        //    //vm.AddVehicle(c1);
+        //    //vm.AddVehicle(truck);
+        //    //vm.AddVehicle(motorcycle);
 
         //    vm.DisplayAllVehicles();
 
