@@ -35,20 +35,20 @@ namespace Inheritence
 
     class TestMatrix
     {
-        static void Main(string[] args)
-        {
-            Matrix m1 = new Matrix(20, 18, 15, 14);
-            Matrix m2 = new Matrix(19, 17, 14, 13);
+        //static void Main(string[] args)
+        //{
+        //    Matrix m1 = new Matrix(20, 18, 15, 14);
+        //    Matrix m2 = new Matrix(19, 17, 14, 13);
 
-            Matrix m3 = m1 + m2;
-            Matrix m4 = m1 - m2;
+        //    Matrix m3 = m1 + m2;
+        //    Matrix m4 = m1 - m2;
 
-            Console.WriteLine(m1);
-            Console.WriteLine(m2);
-            Console.WriteLine(m3);
-            Console.WriteLine(m4);
+        //    Console.WriteLine(m1);
+        //    Console.WriteLine(m2);
+        //    Console.WriteLine(m3);
+        //    Console.WriteLine(m4);
 
-            Console.ReadLine();
-        }
+        //    Console.ReadLine();
+        //}
     }
 }
