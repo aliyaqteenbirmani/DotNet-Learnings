@@ -32,13 +32,13 @@ namespace Inheritence.Interfaces
         {
             Console.WriteLine(a*b);
         }
-        static void Main(string[] args)
-        {
-            ITest1Interface test = new Test();
-            test.add(5, 6);
-            test.Sub(10, 6);
-            test.Mul(5,5);
-            Console.ReadLine();
-        }
+        //static void Main(string[] args)
+        //{
+        //    ITest1Interface test = new Test();
+        //    test.add(5, 6);
+        //    test.Sub(10, 6);
+        //    test.Mul(5,5);
+        //    Console.ReadLine();
+        //}
     }
 }
