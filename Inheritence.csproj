@@ -48,6 +48,8 @@
     <Compile Include="Bird.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Class2.cs" />
+    <Compile Include="DeleProgram.cs" />
+    <Compile Include="DemoProject.cs" />
     <Compile Include="Fish.cs" />
     <Compile Include="Interfaces\ItestInterface.cs" />
     <Compile Include="Mammal.cs" />
@@ -62,6 +64,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Propertise\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
